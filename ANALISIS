@@ -1,0 +1,6 @@
+ANALISA CODE PROGRAM 
+1.	Pada File XML yang  telah dibuat  terdapat 5 file xml, terdapat atribut didalam nya, dengan 10 elemen.
+2.	Pada file schema atau XSD yang telah dibuat, terdapat element email yang sudah digunakan pattern “@” dan juga “.” . Pada file schema ini mempunyai sebuah aturan  bahwa jika pada saat kita mengisi data email tidak mengikuti aturan dari file schema ini seperti tidak ada “@” dan “.”  , maka akan terjadi error. 
+3.	Untuk menggabungkan antara file xml dan file schema, dibutuhkan sebuah referensi menggunakan namespace atau referensi ke file schema tersebut berikut adalah Pendefinisian untuk menghubungkan file xml dan file schema : 
+
+<Perhotelan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="perhotelan.xsd">
