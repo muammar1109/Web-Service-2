@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Perhotelan">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="pegawai"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="pegawai">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama"/>
+                <xs:element ref="id"/>
+                <xs:element ref="ruangan"/>
+                <xs:element ref="jk"/>
+                <xs:element ref="nope"/>
+                <xs:element ref="alamat"/>
+                <xs:element ref="email"/>
+                <xs:element ref="gaji"/>
+                <xs:element ref="agama"/>
+                <xs:element ref="hotel"/>
+            </xs:sequence>
+            <xs:attribute name="jabatan" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="id" type="xs:integer"/>
+    <xs:element name="ruangan" type="xs:NCName"/>
+    <xs:element name="jk" type="xs:NCName"/>
+    <xs:element name="nope" type="xs:integer"/>
+    <xs:element name="alamat" type="xs:string"/>
+    <xs:element name="email">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    			<xs:pattern value="[^@]+@[^\.]+\..+"></xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="gaji" type="xs:decimal"/>
+    <xs:element name="agama" type="xs:NCName"/>
+    <xs:element name="hotel" type="xs:NCName"/>
+</xs:schema>
+
