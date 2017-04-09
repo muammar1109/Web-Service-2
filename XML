@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Perhotelan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="perhotelan.xsd">
+	<pegawai jabatan="office boy">
+		<nama>Akbar Thamrin</nama>
+		<id>1154109</id>
+		<ruangan>Mawar</ruangan>
+		<jk>laki-laki</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>akbar@gmail.com</email>
+		<gaji>3.5</gaji>
+		<agama>islam</agama>
+		<hotel>aston</hotel>
+	</pegawai>
+	
+	<pegawai jabatan="office boy">
+		<nama>Faisal Syarief</nama>
+		<id>1154108</id>
+		<ruangan>Melati</ruangan>
+		<jk>laki-laki</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>ompes@gmail.com</email>
+		<gaji>3.5</gaji>
+		<agama>islam</agama>
+		<hotel>aston</hotel>
+	</pegawai>
+	
+	<pegawai jabatan="office boy">
+		<nama>Eka Pratama</nama>
+		<id>1154107</id>
+		<ruangan>Anggrek</ruangan>
+		<jk>laki-laki</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>ekap@gmail.com</email>
+		<gaji>3.5</gaji>
+		<agama>islam</agama>
+		<hotel>aston</hotel>
+	</pegawai>
+	
+	<pegawai jabatan="office boy">
+		<nama>Fahmi Ariadi</nama>
+		<id>1154106</id>
+		<ruangan>Anggrek</ruangan>
+		<jk>laki-laki</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>fhmi@gmail.com</email>
+		<gaji>3.5</gaji>
+		<agama>islam</agama>
+		<hotel>aston</hotel>
+	</pegawai>
+	
+	<pegawai jabatan="office boy">
+		<nama>Deriando</nama>
+		<id>1154105</id>
+		<ruangan>Anggrek</ruangan>
+		<jk>laki-laki</jk>
+		<nope>09975345678</nope>
+		<alamat>jl.sariasih no.22</alamat>
+		<email>deri@gmail.com</email>
+		<gaji>3.5</gaji>
+		<agama>islam</agama>
+		<hotel>aston</hotel>
+	</pegawai>
+	
+	
+</Perhotelan>
+
